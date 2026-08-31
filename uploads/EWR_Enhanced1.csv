@@ -1,0 +1,501 @@
+Order_ID,Date,Customer_Name,Customer_Age,Product,Category,Price,Quantity,Total_Sales,Discount (%),Final_Sales,Region,Payment_Method,Delivery_Status,demo_col
+,14-09-2024,Abha Mandal,40,Fiction,Books,348.29,10,3482.9,16,2925.64,South,Cash,Pending,1
+6285,20-03-2024,Saksham Dewan,22,Smartwatch,Electronics,330.21,10,3302.1,23,2542.62,East,Debit Card,Delivered,2
+2931,16-03-2024,Gautam Samra,31,Moisturizer,Beauty,218.84,5,1094.2,47,579.93,South,Credit Card,Delivered,3
+7980,19-12-2024,Rajata Goyal,24,Smartphone,Electronics,325.36,2,650.72,49,331.87,North,Credit Card,Delivered,4
+2407,03-09-2024,Chaaya Swamy,40,Fiction,Books,419.22,8,3353.76,29,2381.17,South,UPI,Returned,5
+9952,28-11-2024,Turvi Shetty,27,Perfume,Beauty,229.22,6,1375.32,8,1265.29,South,Debit Card,Delivered,6
+3583,06-01-2024,Yasti Loke,19,Foundation,Beauty,250.76,1,250.76,48,130.4,North,UPI,Pending,7
+3380,03-02-2024,Onkar Agarwal,26,Jacket,Clothing,318.05,4,1272.2,24,966.87,West,Cash,Delivered,8
+4197,17-07-2024,Frado Virk,39,Smartphone,Electronics,312.29,5,1561.45,24,1186.7,East,UPI,Returned,9
+1092,26-08-2024,Hitesh Raghavan,32,T-Shirt,Clothing,200.62,10,2006.2,5,1186.7,East,Cash,Returned,10
+,02-04-2024,Devansh Agrawal,25,Laptop,Electronics,43.98,9,395.82,34,261.24,South,Credit Card,Returned,11
+5579,25-07-2024,Ekbal Pandit,22,Smartwatch,Electronics,497.95,4,1991.8,36,1274.75,North,UPI,Returned,12
+8273,17-03-2024,Libni Tripathi,38,Comics,Books,193.77,3,581.31,33,389.48,South,Debit Card,Delivered,13
+2134,05-01-2024,Lucky Agate,24,Microwave,Home Appliances,148.49,10,1484.9,49,757.3,South,UPI,Delivered,14
+8240,10-08-2024,Charan Sawhney,30,Jacket,Clothing,254.67,7,1782.69,5,1693.56,West,UPI,Returned,15
+3496,29-04-2024,Nandini Gade,57,T-Shirt,Clothing,493.62,2,987.24,13,858.9,South,Credit Card,Delivered,16
+5185,01-07-2024,Xiti Mistry,24,Smartwatch,Electronics,145.16,6,870.96,45,479.03,North,UPI,Pending,17
+8815,14-10-2024,Baghyawati Zachariah,36,Foundation,Beauty,71.47,4,285.88,43,162.95,North,Cash,Pending,18
+7718,15-04-2024,Jack Chand,31,Air Conditioner,Home Appliances,235.72,1,235.72,40,141.43,North,Debit Card,Delivered,19
+8691,26-02-2024,Inaya Krishnan,21,Fiction,Books,123.41,8,987.28,45,543,South,UPI,Returned,20
+2712,13-11-2024,Damyanti Varghese,38,Headphones,Electronics,41.19,10,411.9,39,251.26,West,Debit Card,Returned,21
+8395,28-07-2024,Zansi Bahri,21,Perfume,Beauty,376.68,6,2260.08,39,1378.65,North,Debit Card,Pending,22
+3153,26-07-2024,Aarush Khurana,25,Refrigerator,Home Appliances,297.99,2,595.98,19,482.74,South,UPI,Pending,23
+8528,09-05-2024,Nidra Bassi,35,Refrigerator,Home Appliances,365.81,2,731.62,16,614.56,South,Credit Card,Returned,24
+9506,31-05-2024,Sanya Das,34,T-Shirt,Clothing,372.55,1,372.55,17,309.22,East,UPI,Delivered,25
+5762,05-06-2024,Veer Hegde,30,Lipstick,Beauty,331.36,7,2319.52,39,1414.91,North,Cash,Returned,26
+1778,18-11-2024,Indira Sibal,57,Smartphone,Electronics,304.82,8,2438.56,18,1999.62,South,Cash,Delivered,27
+7219,19-10-2024,Tamanna Aggarwal,62,Headphones,Electronics,245.82,5,1229.1,29,872.66,South,UPI,Returned,28
+1427,16-08-2024,Pratyush Rao,53,Comics,Books,54,10,540,34,356.4,East,Debit Card,Delivered,29
+2878,22-12-2024,Xavier Saxena,21,Smartwatch,Electronics,318.91,6,1913.46,47,1014.13,North,Debit Card,Delivered,30
+5782,05-05-2024,Hemal Patla,59,Foundation,Beauty,68.88,3,206.64,16,173.58,South,Debit Card,Returned,31
+2458,21-09-2024,Eiravati Dhawan,41,Shoes,Clothing,450.41,2,900.82,27,657.6,East,UPI,Delivered,32
+9809,10-04-2024,Widisha Mand,22,Washing Machine,Home Appliances,219.1,1,219.1,31,151.18,North,Debit Card,Pending,33
+1155,17-01-2024,Gaurav Yadav,64,Biography,Books,164.06,3,492.18,10,442.96,South,Credit Card,Delivered,34
+6832,08-07-2024,Aarav Ranganathan,63,Air Conditioner,Home Appliances,338.52,6,2031.12,34,1340.54,East,Credit Card,Returned,35
+7214,21-07-2024,Omaja Raval,18,Refrigerator,Home Appliances,178.79,2,357.58,46,193.09,West,Cash,Returned,36
+9811,25-11-2024,Yamini Issac,55,Jacket,Clothing,234.65,5,1173.25,19,950.33,North,UPI,Delivered,37
+9495,01-02-2024,Tanish Mitter,63,Smartphone,Electronics,233.44,5,1167.2,38,723.66,West,Cash,Returned,38
+6694,18-07-2024,Lakshmi Verma,43,Comics,Books,33.24,10,332.4,31,229.36,South,UPI,Delivered,39
+6046,13-07-2024,Hemani Rana,20,Smartwatch,Electronics,191.33,3,573.99,29,407.53,North,Debit Card,Returned,40
+1403,26-02-2024,Aayush Kashyap,60,Fiction,Books,90.66,6,543.96,35,353.57,West,Credit Card,Delivered,41
+3563,25-06-2024,Arin Golla,19,Air Conditioner,Home Appliances,126.47,3,379.41,37,239.03,East,Cash,Delivered,42
+4906,04-09-2024,Owen Sachdev,43,Smartwatch,Electronics,415.67,7,2909.69,9,2647.82,South,Debit Card,Delivered,43
+5501,10-07-2024,Abhiram Garg,64,Shoes,Clothing,257.94,7,1805.58,24,1372.24,North,Credit Card,Returned,44
+1673,15-09-2024,Utkarsh Kale,52,T-Shirt,Clothing,377.95,8,3023.6,17,2509.59,West,Credit Card,Returned,45
+8532,29-05-2024,Gopal Radhakrishnan,25,Refrigerator,Home Appliances,375.14,3,1125.42,32,765.29,North,Credit Card,Delivered,46
+8219,21-10-2024,Ishita Mutti,52,Refrigerator,Home Appliances,417.48,7,2922.36,22,2279.44,East,Credit Card,Returned,47
+8385,25-07-2024,Nihal Karpe,46,Smartphone,Electronics,191.77,4,767.08,42,444.91,North,Debit Card,Delivered,48
+3275,25-05-2024,Brijesh Sehgal,26,Jacket,Clothing,386.11,4,1544.44,31,1065.66,North,UPI,Returned,49
+8019,25-07-2024,Tanvi Dani,62,Air Conditioner,Home Appliances,124.67,5,623.35,13,542.31,East,Cash,Pending,50
+3341,01-03-2024,Abdul Mallick,18,Smartwatch,Electronics,169.15,9,1522.35,47,806.85,South,Cash,Delivered,51
+4450,18-10-2024,Barkha Kant,56,Comics,Books,81.41,3,244.23,15,207.6,West,Debit Card,Pending,52
+7508,20-06-2024,Tanish Murthy,57,Lipstick,Beauty,243.8,6,1462.8,8,1345.78,East,Credit Card,Returned,53
+8145,11-08-2024,Brijesh Samra,45,Perfume,Beauty,136.8,7,957.6,45,526.68,North,Cash,Delivered,54
+8361,31-10-2024,Riya Wable,56,Refrigerator,Home Appliances,413.49,1,413.49,26,305.98,East,Debit Card,Delivered,55
+4872,29-03-2024,Chakradhar Yogi,42,Microwave,Home Appliances,43.53,8,348.24,29,247.25,West,Cash,Pending,56
+6687,30-05-2024,Oni Rana,31,Laptop,Electronics,229.08,8,1832.64,19,1484.44,South,Cash,Delivered,57
+4207,13-02-2024,Benjamin Shere,28,Fiction,Books,15.4,6,92.4,12,81.31,West,Credit Card,Pending,58
+9587,19-02-2024,Daniel Pathak,40,Air Conditioner,Home Appliances,172.34,7,1206.38,5,1146.06,East,Debit Card,Delivered,59
+7443,12-06-2024,Gavin Bahri,43,Jacket,Clothing,281.75,9,2535.75,9,2307.53,North,Credit Card,Returned,60
+3078,23-12-2024,Wyatt Kunda,65,Fiction,Books,157.61,4,630.44,14,542.18,East,Debit Card,Returned,61
+8128,28-05-2024,Rajeshri Lala,38,Foundation,Beauty,420.39,3,1261.17,30,882.82,West,UPI,Delivered,62
+3894,16-01-2024,Teerth Subramaniam,44,T-Shirt,Clothing,299.17,9,2692.53,9,2450.2,South,Cash,Returned,63
+4885,16-08-2024,Xiti Raju,39,Biography,Books,176.38,9,1587.42,9,1444.55,West,UPI,Delivered,64
+3410,16-10-2024,Kabir Ranganathan,28,Microwave,Home Appliances,488.74,9,4398.66,25,3298.99,West,Credit Card,Delivered,65
+5268,08-04-2024,Watika Devi,38,Lipstick,Beauty,90.33,4,361.32,37,227.63,East,Debit Card,Pending,66
+,05-09-2024,Tanish Mann,36,Smartwatch,Electronics,438.24,6,2629.44,9,2392.79,East,Credit Card,Pending,67
+2044,04-07-2024,Madhavi Chatterjee,45,Air Conditioner,Home Appliances,121.31,9,1091.79,23,840.68,East,Credit Card,Returned,68
+8296,13-09-2024,Dipta Hari,52,Comics,Books,141.36,3,424.08,37,267.17,East,Credit Card,Pending,69
+3689,24-08-2024,Inaya Sampath,44,Lipstick,Beauty,470.22,8,3761.76,47,1993.73,South,Credit Card,Returned,70
+6052,06-12-2024,Vedika Agrawal,61,Smartphone,Electronics,276.97,4,1107.88,9,1008.17,West,Debit Card,Returned,71
+6623,11-10-2024,Naksh Mall,61,Fiction,Books,435.98,2,871.96,10,784.76,North,Credit Card,Pending,72
+5889,21-04-2024,Warinder Chana,65,Jacket,Clothing,121.03,10,1210.3,21,956.14,East,Debit Card,Delivered,73
+7524,18-09-2024,Ryan Master,48,Headphones,Electronics,239.89,4,959.56,18,786.84,West,Credit Card,Pending,74
+8444,02-12-2024,Waida Gade,48,Fiction,Books,157.13,1,157.13,46,84.85,East,UPI,Pending,75
+2324,10-03-2024,Urishilla Sampath,65,Lipstick,Beauty,498.1,9,4482.9,21,3541.49,East,Cash,Returned,76
+3077,09-08-2024,Gaurav Sheth,24,Shoes,Clothing,225.83,10,2258.3,7,2100.22,West,Credit Card,Pending,77
+5081,23-09-2024,Riya Prabhu,54,Laptop,Electronics,187.34,2,374.68,18,307.24,West,Debit Card,Pending,78
+9306,19-06-2024,Logan Murthy,44,Air Conditioner,Home Appliances,183.96,8,1471.68,18,1206.78,South,Cash,Delivered,79
+,02-12-2024,Shivani Anand,57,T-Shirt,Clothing,493.2,8,3945.6,33,2643.55,North,UPI,Pending,80
+8988,19-09-2024,Imaran Sundaram,33,Jacket,Clothing,223.4,6,1340.4,18,1099.13,East,UPI,Pending,81
+6411,01-12-2024,Sai Lal,60,Microwave,Home Appliances,488.61,8,3908.88,43,2228.06,North,Cash,Delivered,82
+1050,21-03-2024,Hemani Dora,60,Smartphone,Electronics,260.18,9,2341.62,26,1732.8,North,Credit Card,Returned,83
+6127,07-04-2024,Baghyawati Wali,36,Fiction,Books,214.45,2,428.9,28,308.81,North,Debit Card,Returned,84
+2613,09-03-2024,Advika Kannan,30,Washing Machine,Home Appliances,31.71,1,31.71,46,17.12,West,Credit Card,Returned,85
+8022,16-08-2024,Jeet Baral,46,Washing Machine,Home Appliances,154.19,8,1233.52,22,962.15,South,UPI,Delivered,86
+2591,30-06-2024,Aarav Andra,24,Smartphone,Electronics,210.77,9,1896.93,33,1270.94,South,Credit Card,Delivered,87
+7066,15-01-2024,Owen Palan,50,Shoes,Clothing,72.23,3,216.69,13,188.52,North,Debit Card,Delivered,88
+9744,02-07-2024,Ira Roy,52,Shoes,Clothing,218.42,3,655.26,19,530.76,North,Debit Card,Pending,89
+2452,04-04-2024,Urmi Rastogi,60,Biography,Books,422.61,7,2958.27,22,2307.45,East,Cash,Pending,90
+9110,19-04-2024,Advika Oak,63,Comics,Books,267.16,7,1870.12,41,1103.37,South,Debit Card,Delivered,91
+9300,17-12-2024,Caleb Sura,36,Non-Fiction,Books,386.44,7,2705.08,23,2082.91,West,Debit Card,Returned,92
+4082,21-02-2024,Leela Kakar,29,Non-Fiction,Books,101.92,3,305.76,12,269.07,West,UPI,Delivered,93
+3546,13-06-2024,Varenya Kothari,42,Lipstick,Beauty,238.32,9,2144.88,41,1265.48,South,Cash,Delivered,94
+5560,24-05-2024,Vamakshi Sem,51,Lipstick,Beauty,186.3,2,372.6,28,268.27,East,UPI,Returned,95
+1639,26-12-2024,Lekha Malhotra,43,Washing Machine,Home Appliances,164.02,10,1640.2,8,1508.98,East,Cash,Pending,96
+5325,25-11-2024,Jeremiah Varughese,19,Microwave,Home Appliances,397.62,6,2385.72,47,1264.43,East,UPI,Delivered,97
+,21-10-2024,Viraj Bhat,27,Non-Fiction,Books,361.99,10,3619.9,24,2751.12,North,Debit Card,Pending,98
+1886,14-05-2024,David Hans,34,Smartwatch,Electronics,439.97,7,3079.79,10,2771.81,North,Debit Card,Pending,99
+3183,16-07-2024,Theodore Kumer,32,Air Conditioner,Home Appliances,54.46,3,163.38,28,117.63,South,Cash,Pending,100
+6255,01-03-2024,Bimala Dua,50,Smartphone,Electronics,253.78,1,253.78,22,197.95,North,Debit Card,Returned,101
+1514,16-03-2024,Yatin Garg,65,Comics,Books,303.26,8,2426.08,37,1528.43,North,UPI,Delivered,102
+2101,30-01-2024,Niharika Sridhar,32,Microwave,Home Appliances,250.49,2,500.98,25,375.74,North,Debit Card,Delivered,103
+4358,06-02-2024,Ayaan Kala,18,Smartwatch,Electronics,280.22,2,560.44,20,448.35,West,Credit Card,Returned,104
+9655,25-06-2024,Alka Balakrishnan,62,Washing Machine,Home Appliances,382.79,2,765.58,33,512.94,West,Debit Card,Pending,105
+4855,06-04-2024,Rayaan Dave,37,Non-Fiction,Books,352.87,9,3175.83,47,1683.19,East,Debit Card,Pending,106
+3199,09-11-2024,Aditya Bail,44,Smartphone,Electronics,129.8,5,649,42,376.42,South,UPI,Pending,107
+7154,08-06-2024,Ishita Ram,44,Perfume,Beauty,126.9,5,634.5,46,342.63,North,Debit Card,Pending,108
+4515,10-07-2024,Jonathan Bhardwaj,64,Non-Fiction,Books,60.08,5,300.4,49,153.2,North,UPI,Pending,109
+3848,22-11-2024,Devansh Hegde,55,Biography,Books,255.66,9,2300.94,19,1863.76,East,Cash,Returned,110
+1385,22-01-2024,Nikita Dutt,50,Headphones,Electronics,360.98,9,3248.82,18,2664.03,East,UPI,Delivered,111
+6212,06-01-2024,Sneha Dubey,24,Perfume,Beauty,15.75,7,110.25,49,56.23,West,Credit Card,Delivered,112
+5334,25-08-2024,Girindra Walla,45,Washing Machine,Home Appliances,377.37,8,3018.96,15,2566.12,East,UPI,Delivered,113
+2228,20-05-2024,Kiaan Ramesh,62,Non-Fiction,Books,484.22,7,3389.54,29,2406.57,North,Debit Card,Returned,114
+7597,08-02-2024,Chavvi Raj,33,Moisturizer,Beauty,112.4,6,674.4,48,350.69,North,Credit Card,Delivered,115
+8063,14-01-2024,Kai Deo,39,Microwave,Home Appliances,165.8,8,1326.4,10,1193.76,North,Cash,Returned,116
+4215,07-07-2024,Quincy Zacharia,51,Jeans,Clothing,118.07,3,354.21,25,265.66,North,UPI,Delivered,117
+6558,28-05-2024,Krish Sachdeva,40,Biography,Books,339.2,6,2035.2,13,1770.62,East,Debit Card,Delivered,118
+7963,23-03-2024,Girindra Goel,50,Foundation,Beauty,418.68,9,3768.12,49,1921.74,East,Cash,Delivered,119
+8432,26-06-2024,Ekapad Savant,33,Non-Fiction,Books,289.21,9,2602.89,43,1483.65,East,UPI,Pending,120
+1339,04-10-2024,Wazir Purohit,31,Microwave,Home Appliances,400.59,6,2403.54,46,1297.91,South,Cash,Pending,121
+8057,21-12-2024,Ekbal Mann,29,Smartphone,Electronics,306.78,9,2761.02,50,1380.51,South,Credit Card,Delivered,122
+4091,01-03-2024,Baljiwan Bala,43,Perfume,Beauty,159.2,5,796,29,565.16,East,Debit Card,Returned,123
+1421,11-03-2024,Fitan Malhotra,27,Foundation,Beauty,297.28,2,594.56,42,344.84,South,Cash,Returned,124
+8286,20-05-2024,Abeer Oak,33,Smartphone,Electronics,419.94,6,2519.64,12,2217.28,East,UPI,Pending,125
+6268,28-10-2024,Triya Sood,54,Jacket,Clothing,112.02,10,1120.2,15,952.17,East,Cash,Returned,126
+5603,07-05-2024,Daksh Bumb,41,Laptop,Electronics,130.77,7,915.39,27,668.23,West,Debit Card,Delivered,127
+6070,31-05-2024,Ganga Grover,47,Shoes,Clothing,499.49,2,998.98,45,549.44,East,UPI,Returned,128
+3120,10-10-2024,Abeer Pradhan,36,Refrigerator,Home Appliances,125.71,4,502.84,38,311.76,West,Debit Card,Delivered,129
+3358,07-08-2024,Jagat Munshi,39,Laptop,Electronics,312.5,7,2187.5,37,1378.12,North,Credit Card,Delivered,130
+2428,11-12-2024,Hemang Savant,53,Smartwatch,Electronics,167.12,8,1336.96,8,1230,South,UPI,Delivered,131
+6393,06-08-2024,Vedant Loke,38,Air Conditioner,Home Appliances,246.22,8,1969.76,11,1753.09,West,Cash,Delivered,132
+6400,25-04-2024,Ridhi Nath,49,Laptop,Electronics,334.62,5,1673.1,16,1405.4,East,UPI,Delivered,133
+4476,15-02-2024,Yadavi Sanghvi,20,Refrigerator,Home Appliances,58.73,4,234.92,15,199.68,East,Debit Card,Pending,134
+2566,08-05-2024,Zansi Babu,39,Lipstick,Beauty,462.16,3,1386.48,43,790.29,West,Credit Card,Delivered,135
+7203,14-02-2024,Indrajit Iyengar,43,Biography,Books,303.71,4,1214.84,40,728.9,South,Debit Card,Pending,136
+7736,22-04-2024,Ekaja Pingle,53,Refrigerator,Home Appliances,494.13,5,2470.65,8,2273,West,Credit Card,Delivered,137
+4999,05-12-2024,Hritik Sha,61,Shoes,Clothing,159.08,10,1590.8,45,874.94,West,UPI,Returned,138
+6482,19-02-2024,Mahika Sahni,31,Microwave,Home Appliances,283.06,7,1981.42,43,1129.41,East,Credit Card,Delivered,139
+6928,28-01-2024,Ethan Tara,42,Laptop,Electronics,196.36,3,589.08,39,359.34,West,Debit Card,Delivered,140
+2569,02-11-2024,Jacob Tak,52,Microwave,Home Appliances,347.94,9,3131.46,50,1565.73,West,UPI,Pending,141
+9242,12-02-2024,Vritti Merchant,63,Non-Fiction,Books,119.02,3,357.06,34,235.66,East,Credit Card,Pending,142
+9776,05-09-2024,Jhalak Som,30,Comics,Books,20.38,4,81.52,12,71.74,East,Debit Card,Returned,143
+5195,31-05-2024,Max Lalla,29,Jacket,Clothing,219.62,9,1976.58,31,1363.84,East,Debit Card,Returned,144
+8151,09-03-2024,Gaurang Kadakia,54,Foundation,Beauty,313.81,8,2510.48,20,2008.38,East,Debit Card,Returned,145
+3794,21-02-2024,Brinda Panchal,33,Smartphone,Electronics,450.52,5,2252.6,9,2049.87,West,Debit Card,Delivered,146
+7682,17-12-2024,David Madan,46,Non-Fiction,Books,40.26,2,80.52,12,70.86,North,Cash,Pending,147
+9286,03-08-2024,Vaishnavi Krishna,27,Moisturizer,Beauty,372.65,8,2981.2,23,2295.52,South,UPI,Returned,148
+3178,28-04-2024,Yochana Nagarajan,62,Headphones,Electronics,487.43,9,4386.87,47,2325.04,East,Debit Card,Returned,149
+4429,02-04-2024,Falguni Devan,41,Washing Machine,Home Appliances,336.01,3,1008.03,24,766.1,South,UPI,Delivered,150
+5125,03-04-2024,Vaishnavi Parsa,38,Jacket,Clothing,428.46,9,3856.14,37,2429.37,South,UPI,Pending,151
+8332,18-10-2024,Madhav Srivastava,56,Jacket,Clothing,167.42,8,1339.36,45,736.65,North,Credit Card,Pending,152
+6778,27-09-2024,Osha Narain,18,Washing Machine,Home Appliances,124.82,1,124.82,46,67.4,East,UPI,Pending,153
+2365,03-06-2024,Peter Tiwari,25,Jacket,Clothing,387.7,2,775.4,10,697.86,West,Debit Card,Delivered,154
+2217,17-12-2024,Aayush Das,53,Smartwatch,Electronics,166.89,9,1502.01,8,1381.85,South,UPI,Delivered,155
+4972,01-05-2024,Harshil Mand,58,Shoes,Clothing,387.67,1,387.67,16,325.64,West,Credit Card,Pending,156
+2505,17-09-2024,Jyoti Narula,25,Jacket,Clothing,335.2,3,1005.6,9,915.1,West,Credit Card,Returned,157
+1075,16-11-2024,Fiyaz Lad,25,Smartphone,Electronics,308.62,6,1851.72,41,1092.51,North,Debit Card,Delivered,158
+5092,19-02-2024,Adya Raghavan,36,Smartwatch,Electronics,331.67,4,1326.68,45,729.67,West,Cash,Delivered,159
+8820,07-02-2024,Saanvi Vala,24,Shoes,Clothing,13.26,10,132.6,18,108.73,South,Credit Card,Pending,160
+1531,29-05-2024,Banjeet Anne,47,Lipstick,Beauty,182.44,7,1277.08,19,1034.43,East,Cash,Delivered,161
+3437,18-01-2024,Aachal Chander,29,Moisturizer,Beauty,38.95,8,311.6,14,267.98,North,Debit Card,Pending,162
+4581,02-09-2024,Thomas Chandran,25,Smartwatch,Electronics,267.39,4,1069.56,14,919.82,North,Cash,Delivered,163
+8046,29-06-2024,Gauri Mody,51,Jeans,Clothing,144.67,6,868.02,13,755.18,East,Credit Card,Pending,164
+6740,01-05-2024,Yashica Mangat,24,Moisturizer,Beauty,81.87,6,491.22,29,348.77,South,UPI,Delivered,165
+3844,24-10-2024,Yagnesh Mistry,58,Foundation,Beauty,102.66,1,102.66,46,55.44,North,Debit Card,Delivered,166
+6572,30-04-2024,Faris Chokshi,61,Microwave,Home Appliances,165.4,2,330.8,26,244.79,South,Credit Card,Pending,167
+7734,24-06-2024,Vidhi Khatri,45,T-Shirt,Clothing,118.22,7,827.54,9,753.06,West,Cash,Pending,168
+6611,15-11-2024,Tejas Viswanathan,25,Moisturizer,Beauty,366.03,3,1098.09,13,955.34,North,Debit Card,Pending,169
+4858,31-03-2024,Ryan Ravi,38,Laptop,Electronics,473.8,8,3790.4,49,1933.1,West,Cash,Pending,170
+4657,16-09-2024,Januja Bhavsar,42,Laptop,Electronics,28.16,9,253.44,17,210.36,South,Credit Card,Delivered,171
+9963,04-08-2024,Unni Biswas,35,Refrigerator,Home Appliances,347.43,10,3474.3,7,3231.1,North,Credit Card,Pending,172
+5628,10-06-2024,Chaaya Magar,33,Washing Machine,Home Appliances,334.12,7,2338.84,32,1590.41,West,Cash,Pending,173
+7308,12-02-2024,Damyanti Rana,59,Refrigerator,Home Appliances,291.17,10,2911.7,27,2125.54,South,UPI,Delivered,174
+1102,22-06-2024,Avi Chakrabarti,19,Perfume,Beauty,178.4,7,1248.8,9,1136.41,East,Debit Card,Pending,175
+4947,13-07-2024,Aradhana Mohanty,24,Shoes,Clothing,294.25,9,2648.25,30,1853.77,East,UPI,Delivered,176
+7025,04-07-2024,Ekbal Hayre,35,Microwave,Home Appliances,238.44,3,715.32,6,672.4,West,Credit Card,Returned,177
+9585,17-06-2024,Bahadurjit Bandi,22,T-Shirt,Clothing,318.29,2,636.58,43,362.85,West,Debit Card,Delivered,178
+2781,21-01-2024,Thomas Dave,56,Washing Machine,Home Appliances,209.66,9,1886.94,17,1566.16,South,Cash,Pending,179
+3810,17-06-2024,Bhanumati Mangal,34,Microwave,Home Appliances,203.62,1,203.62,43,116.06,North,Cash,Pending,180
+9141,03-09-2024,Ansh Basak,35,Jeans,Clothing,109.67,9,987.03,16,829.11,South,Credit Card,Pending,181
+1351,05-04-2024,Harini Kumar,45,Moisturizer,Beauty,442.11,10,4421.1,25,3315.83,West,Credit Card,Pending,182
+3015,01-08-2024,Divya Saraf,62,Lipstick,Beauty,365.58,2,731.16,9,665.36,East,Cash,Returned,183
+7826,24-01-2024,Jatin Mannan,54,Refrigerator,Home Appliances,265.94,8,2127.52,25,1595.64,West,Debit Card,Delivered,184
+1245,03-09-2024,Hamsini Sarma,64,Refrigerator,Home Appliances,385.29,4,1541.16,10,1387.04,West,Cash,Delivered,185
+5382,24-03-2024,Aarnav Khanna,64,Shoes,Clothing,389.57,9,3506.13,41,2068.62,South,Debit Card,Pending,186
+5687,17-11-2024,Bahadurjit Sharma,20,Shoes,Clothing,368.41,1,368.41,17,305.78,East,Credit Card,Delivered,187
+5711,24-12-2024,Yachana Atwal,46,Refrigerator,Home Appliances,26.27,2,52.54,39,32.05,North,Credit Card,Returned,188
+1934,16-02-2024,Sathvik Narayan,37,Non-Fiction,Books,14.02,10,140.2,8,128.98,South,Credit Card,Delivered,189
+5385,05-06-2024,Bimala Chada,33,Jeans,Clothing,310.89,3,932.67,17,774.12,East,Credit Card,Pending,190
+7132,25-02-2024,Kabir Krishna,28,Lipstick,Beauty,349.98,9,3149.82,25,2362.37,West,UPI,Pending,191
+6639,03-01-2024,Abhimanyu Bhatnagar,41,Shoes,Clothing,33.07,6,198.42,46,107.15,North,UPI,Pending,192
+6095,13-03-2024,Hredhaan Warrior,65,Air Conditioner,Home Appliances,156.68,5,783.4,7,728.56,North,Credit Card,Returned,193
+9164,06-04-2024,Shaurya Lanka,37,Laptop,Electronics,298.08,9,2682.72,27,1958.39,West,Debit Card,Pending,194
+1252,17-08-2024,Abdul Mandal,51,Laptop,Electronics,194.17,1,194.17,18,159.22,South,Debit Card,Pending,195
+2510,17-10-2024,Qabil Aurora,64,Headphones,Electronics,344.46,6,2066.76,38,1281.39,North,Cash,Delivered,196
+8736,17-08-2024,Isha Nadig,46,Jeans,Clothing,254.88,4,1019.52,21,805.42,South,Cash,Pending,197
+1870,03-07-2024,Ekanta Sani,28,Biography,Books,228.34,9,2055.06,15,1746.8,East,Cash,Delivered,198
+1414,23-06-2024,Sneha Vyas,45,Air Conditioner,Home Appliances,342.37,2,684.74,38,424.54,North,Credit Card,Pending,199
+5274,26-12-2024,Advay Vaidya,63,Biography,Books,160.7,6,964.2,32,655.66,West,Cash,Delivered,200
+7635,22-01-2024,Vasana Mahajan,36,T-Shirt,Clothing,485.38,3,1456.14,34,961.05,West,Debit Card,Returned,201
+7482,28-01-2024,Yuvraj Chacko,44,Comics,Books,369.89,9,3329.01,21,2629.92,South,Debit Card,Delivered,202
+4463,29-11-2024,Janaki Deshmukh,47,Air Conditioner,Home Appliances,250.37,6,1502.22,42,871.29,West,Debit Card,Pending,203
+6762,21-07-2024,Naksh Mohan,47,Refrigerator,Home Appliances,260.84,9,2347.56,32,1596.34,North,Debit Card,Delivered,204
+8077,17-04-2024,David Prashad,64,Comics,Books,117.28,1,117.28,46,63.33,South,UPI,Returned,205
+4690,17-03-2024,Yashawini Saini,57,Air Conditioner,Home Appliances,20.62,10,206.2,43,117.53,East,Cash,Delivered,206
+3403,22-05-2024,Liam Pai,46,Non-Fiction,Books,169.05,6,1014.3,24,770.87,West,Debit Card,Pending,207
+2374,14-01-2024,Damyanti Chahal,61,Air Conditioner,Home Appliances,150.73,1,150.73,13,131.14,East,UPI,Pending,208
+1070,12-02-2024,Samuel Sani,59,Headphones,Electronics,167.02,5,835.1,5,793.35,West,Cash,Delivered,209
+5788,26-07-2024,Falguni Mitra,46,Comics,Books,372.7,7,2608.9,49,1330.54,East,Debit Card,Pending,210
+5397,02-04-2024,Kalpit Behl,62,Shoes,Clothing,197.08,4,788.32,33,528.17,North,UPI,Delivered,211
+7057,31-07-2024,Aashi Nagarajan,37,Washing Machine,Home Appliances,97.26,6,583.56,33,390.99,North,Cash,Returned,212
+8738,03-04-2024,Varenya Bhatia,18,Jacket,Clothing,356.47,4,1425.88,44,798.49,East,Credit Card,Returned,213
+7948,29-07-2024,Orinder Jayaraman,27,Smartwatch,Electronics,398.24,5,1991.2,5,1891.64,East,Credit Card,Pending,214
+1925,07-03-2024,Warhi Keer,44,T-Shirt,Clothing,71.14,6,426.84,10,384.16,East,Cash,Pending,215
+3879,25-11-2024,Farhan Patla,39,Laptop,Electronics,472.6,3,1417.8,19,1148.42,North,Debit Card,Pending,216
+2546,07-06-2024,Urvi Puri,41,Foundation,Beauty,144.45,5,722.25,47,382.79,North,Debit Card,Pending,217
+3333,26-02-2024,Nicholas Ravel,47,Jeans,Clothing,76.46,4,305.84,18,250.79,West,Cash,Pending,218
+9966,16-12-2024,Bhavini Bhatnagar,59,Microwave,Home Appliances,428.01,1,428.01,9,389.49,West,Debit Card,Pending,219
+4743,10-01-2024,Aashi Sunder,40,Jeans,Clothing,473.57,3,1420.71,40,852.43,East,Cash,Pending,220
+6813,24-09-2024,Lekha Banik,25,Fiction,Books,464.85,2,929.7,17,771.65,East,Cash,Delivered,221
+3987,28-05-2024,Balhaar Kala,53,Fiction,Books,487.23,3,1461.69,28,1052.42,East,Credit Card,Returned,222
+5587,07-09-2024,Agastya Mody,40,Laptop,Electronics,424.41,7,2970.87,11,2644.07,South,UPI,Pending,223
+2325,10-08-2024,Damyanti Toor,30,Lipstick,Beauty,428.1,6,2568.6,12,2260.37,North,UPI,Delivered,224
+1420,16-02-2024,Bimala Tank,30,Moisturizer,Beauty,100.11,1,100.11,42,58.06,North,Credit Card,Returned,225
+7766,16-06-2024,Rayaan Sharma,53,Smartphone,Electronics,61.63,9,554.67,36,354.99,West,UPI,Delivered,226
+8912,03-08-2024,Garima Kibe,36,Air Conditioner,Home Appliances,401.76,8,3214.08,42,1864.17,West,Credit Card,Delivered,227
+4050,26-07-2024,Wahab Yadav,21,Moisturizer,Beauty,256.97,8,2055.76,41,1212.9,South,Cash,Delivered,228
+3909,13-04-2024,Upma Savant,52,Air Conditioner,Home Appliances,473.1,10,4731,36,3027.84,East,Credit Card,Pending,229
+1042,03-07-2024,Rishi Palan,60,Headphones,Electronics,129.41,3,388.23,33,260.11,East,Credit Card,Delivered,230
+6923,15-05-2024,Chaitanya Chacko,47,Lipstick,Beauty,363.2,3,1089.6,43,621.07,East,Debit Card,Pending,231
+9786,20-09-2024,Jacob Purohit,39,Headphones,Electronics,115.56,6,693.36,48,360.55,North,Credit Card,Delivered,232
+4754,30-06-2024,Liam Mallick,29,Headphones,Electronics,188.64,6,1131.84,17,939.43,North,UPI,Pending,233
+3030,12-05-2024,Bhavya Srinivas,50,Non-Fiction,Books,252.81,3,758.43,14,652.25,North,Cash,Pending,234
+7139,30-05-2024,Banjeet Mand,39,Microwave,Home Appliances,196.11,8,1568.88,34,1035.46,West,Cash,Returned,235
+3782,07-07-2024,Ansh Chanda,37,Washing Machine,Home Appliances,453.99,8,3631.92,38,2251.79,South,Debit Card,Returned,236
+6445,19-11-2024,Abeer Mallick,37,Smartwatch,Electronics,72.95,9,656.55,15,558.07,North,Debit Card,Pending,237
+5641,11-08-2024,Ishaan Rai,33,Foundation,Beauty,444.43,10,4444.3,43,2533.25,North,Credit Card,Pending,238
+9847,23-10-2024,Laksh Hegde,41,Headphones,Electronics,414.56,1,414.56,30,290.19,North,UPI,Pending,239
+2191,05-11-2024,Max Bhakta,33,Microwave,Home Appliances,149.65,4,598.6,23,460.92,West,Cash,Pending,240
+5256,13-02-2024,Adweta Kannan,35,Air Conditioner,Home Appliances,121.83,1,121.83,47,64.57,North,Credit Card,Returned,241
+4790,04-11-2024,Qabil Suresh,38,Lipstick,Beauty,105.92,10,1059.2,12,932.1,West,UPI,Returned,242
+7975,25-04-2024,Omkaar Dhawan,61,Biography,Books,19.45,5,97.25,34,64.18,South,Cash,Pending,243
+1344,26-09-2024,Rushil Hora,64,Smartphone,Electronics,482.81,1,482.81,40,289.69,West,Credit Card,Delivered,244
+2746,25-03-2024,Lila Arya,27,Biography,Books,217.9,4,871.6,14,749.58,North,UPI,Pending,245
+5630,26-12-2024,Bina Grewal,42,Air Conditioner,Home Appliances,288.49,9,2596.41,36,1661.7,East,Cash,Pending,246
+2275,10-01-2024,Anita Purohit,49,Air Conditioner,Home Appliances,12.39,1,12.39,50,6.2,West,Cash,Delivered,247
+5343,10-12-2024,Triya Barad,44,Smartwatch,Electronics,288.48,5,1442.4,50,721.2,East,Credit Card,Pending,248
+6024,18-10-2024,Gagan Amble,43,Moisturizer,Beauty,114.1,8,912.8,29,648.09,East,Debit Card,Pending,249
+8957,11-11-2024,Praneel Sinha,43,Jeans,Clothing,206.1,10,2061,46,1112.94,North,Credit Card,Delivered,250
+8114,18-04-2024,Baljiwan Ganesan,21,Lipstick,Beauty,340.43,10,3404.3,34,2246.84,West,Cash,Pending,251
+6996,09-09-2024,Aarush Ghosh,59,Microwave,Home Appliances,323.66,9,2912.94,34,1922.54,East,UPI,Delivered,252
+1896,26-10-2024,Hamsini Malhotra,45,Smartphone,Electronics,243.66,2,487.32,48,253.41,West,Debit Card,Pending,253
+2487,19-09-2024,Gagan Pau,39,Microwave,Home Appliances,53.98,4,215.92,43,123.07,North,Credit Card,Pending,254
+4694,10-10-2024,Charvi Bhavsar,44,Smartphone,Electronics,319.69,3,959.07,39,585.03,West,Debit Card,Delivered,255
+4541,27-06-2024,Vanya Dey,53,Laptop,Electronics,159.34,7,1115.38,17,925.77,West,Credit Card,Pending,256
+5896,20-12-2024,Upadhriti Lad,29,Moisturizer,Beauty,215.35,8,1722.8,19,1395.47,South,Cash,Delivered,257
+9725,06-01-2024,Noah Pandya,54,Air Conditioner,Home Appliances,99.39,1,99.39,27,72.55,East,Credit Card,Delivered,258
+2926,13-07-2024,Falguni Rai,23,T-Shirt,Clothing,306.95,6,1841.7,33,1233.94,North,Debit Card,Returned,259
+8536,05-06-2024,Advaith Dave,42,Comics,Books,186.1,10,1861,29,1321.31,East,Cash,Returned,260
+2789,13-03-2024,Shivani Chada,31,Microwave,Home Appliances,331.3,2,662.6,48,344.55,North,Credit Card,Pending,261
+5018,28-10-2024,Balendra Kala,51,Moisturizer,Beauty,89.65,5,448.25,49,228.61,East,Credit Card,Delivered,262
+6683,27-08-2024,Keya Taneja,37,T-Shirt,Clothing,289.32,9,2603.88,13,2265.38,North,Cash,Pending,263
+4497,07-05-2024,Omaja Sekhon,21,Laptop,Electronics,490.45,6,2942.7,35,1912.75,East,UPI,Delivered,264
+9774,22-04-2024,Bhavani Kala,23,Foundation,Beauty,34.46,10,344.6,29,244.67,East,Cash,Delivered,265
+2648,10-06-2024,Dayita Nath,53,Shoes,Clothing,165.58,2,331.16,12,291.42,South,Cash,Pending,266
+3506,05-08-2024,Ridhi Shah,52,Non-Fiction,Books,328.91,1,328.91,20,263.13,East,Cash,Returned,267
+9355,17-11-2024,Anthony Bandi,56,Comics,Books,185.71,10,1857.1,11,1652.82,South,Cash,Delivered,268
+4745,20-04-2024,Nirja Narayan,50,Moisturizer,Beauty,468.59,7,3280.13,8,3017.72,West,Credit Card,Delivered,269
+7661,11-06-2024,Amol Kadakia,59,Shoes,Clothing,425.04,5,2125.2,34,1402.63,South,Credit Card,Delivered,270
+6412,17-06-2024,Omkaar Parmer,28,T-Shirt,Clothing,255.84,8,2046.72,15,1739.71,West,Credit Card,Pending,271
+5929,20-02-2024,Vinaya Mohan,53,Refrigerator,Home Appliances,194.98,4,779.92,10,701.93,South,Cash,Pending,272
+6919,21-04-2024,Ridhi Raj,57,Fiction,Books,383.89,6,2303.34,12,2026.94,East,Credit Card,Delivered,273
+1727,30-01-2024,Warjas Choudhary,40,Laptop,Electronics,277.37,1,277.37,16,232.99,North,Credit Card,Delivered,274
+1260,28-05-2024,Xiti Murthy,43,Shoes,Clothing,102.46,1,102.46,36,65.57,East,Credit Card,Delivered,275
+8048,26-10-2024,Vincent Sawhney,19,Washing Machine,Home Appliances,229.63,1,229.63,8,211.26,South,Credit Card,Delivered,276
+8062,10-06-2024,Dalbir Comar,36,Microwave,Home Appliances,38.67,9,348.03,45,191.42,East,Cash,Returned,277
+2770,01-05-2024,Ishwar Wable,41,Shoes,Clothing,494.14,10,4941.4,12,4348.43,East,Credit Card,Delivered,278
+8822,12-05-2024,Upma Sura,46,Microwave,Home Appliances,254.29,1,254.29,31,175.46,West,Cash,Delivered,279
+6014,19-06-2024,Yagnesh Mittal,47,Refrigerator,Home Appliances,351.97,5,1759.85,48,915.12,South,UPI,Delivered,280
+8897,04-07-2024,Turvi Jain,21,Perfume,Beauty,448.02,9,4032.18,43,2298.34,North,Credit Card,Returned,281
+6828,25-12-2024,Darsh Virk,38,Laptop,Electronics,386.46,10,3864.6,26,2859.8,South,Debit Card,Returned,282
+8834,04-05-2024,Praneel Chandran,56,Smartwatch,Electronics,88.97,9,800.73,22,624.57,East,Cash,Returned,283
+8236,22-11-2024,Gunbir Parmar,19,Refrigerator,Home Appliances,170.23,5,851.15,8,783.06,West,Cash,Returned,284
+8541,02-11-2024,Aarnav Saxena,31,Laptop,Electronics,186.1,8,1488.8,26,1101.71,North,Cash,Returned,285
+1428,28-03-2024,Yashoda Krishna,24,Washing Machine,Home Appliances,216.8,2,433.6,45,238.48,South,Cash,Returned,286
+3755,23-08-2024,Sai Sarna,57,Smartwatch,Electronics,439.48,2,878.96,18,720.75,South,Debit Card,Returned,287
+2903,07-02-2024,Abha Bajwa,59,Shoes,Clothing,129.94,4,519.76,28,374.23,West,Debit Card,Returned,288
+6975,03-06-2024,Yashawini Kala,22,Foundation,Beauty,359.48,1,359.48,22,280.39,East,Debit Card,Returned,289
+9943,23-02-2024,Harsh Rastogi,65,Jeans,Clothing,102.98,7,720.86,44,403.68,West,Credit Card,Pending,290
+7505,08-11-2024,Noah Sane,24,Jacket,Clothing,389.25,1,389.25,50,194.62,West,Cash,Pending,291
+1476,19-11-2024,Jairaj Mistry,56,Smartphone,Electronics,261.52,10,2615.2,14,2249.07,West,Credit Card,Returned,292
+8456,14-05-2024,Mason Comar,47,Moisturizer,Beauty,375.72,10,3757.2,11,3343.91,West,Cash,Delivered,293
+1582,26-06-2024,Eesha Konda,37,Fiction,Books,291.02,5,1455.1,29,1033.12,West,Debit Card,Returned,294
+4180,30-08-2024,Charan Subramaniam,35,T-Shirt,Clothing,221.12,1,221.12,6,207.85,West,UPI,Pending,295
+1758,03-10-2024,Vasana Bhalla,22,Headphones,Electronics,390.54,5,1952.7,34,1288.78,East,Debit Card,Returned,296
+7743,13-02-2024,Chaman Jhaveri,22,Fiction,Books,12.53,6,75.18,30,52.63,East,UPI,Delivered,297
+6826,14-11-2024,Bhavani Hans,54,Smartphone,Electronics,110.04,8,880.32,42,510.59,East,UPI,Returned,298
+7397,19-04-2024,Vivaan Peri,51,Smartwatch,Electronics,50.11,8,400.88,23,308.68,East,Debit Card,Delivered,299
+7393,01-01-2024,Devika Shroff,46,Non-Fiction,Books,213.73,8,1709.84,8,1573.05,South,Debit Card,Pending,300
+9773,10-07-2024,Fitan Bahl,50,Microwave,Home Appliances,455.91,6,2735.46,23,2106.3,North,Debit Card,Pending,301
+5090,29-03-2024,Jasmit Agrawal,56,Comics,Books,84.31,1,84.31,27,61.55,West,Credit Card,Returned,302
+5605,16-03-2024,Jatin Pall,47,Jeans,Clothing,366.27,4,1465.08,9,1333.22,South,Debit Card,Pending,303
+2106,01-11-2024,Meera Narula,50,Refrigerator,Home Appliances,472.97,4,1891.88,15,1608.1,North,Credit Card,Pending,304
+7565,13-08-2024,Falak Bora,43,Foundation,Beauty,225.87,3,677.61,16,569.19,West,UPI,Returned,305
+1946,19-12-2024,Chaitaly Dani,38,Non-Fiction,Books,280.85,9,2527.65,5,2401.27,West,Debit Card,Pending,306
+2202,10-04-2024,Vinaya Tella,36,Jeans,Clothing,286.66,9,2579.94,50,1289.97,South,Credit Card,Pending,307
+5712,07-08-2024,Nidhi Bawa,51,Washing Machine,Home Appliances,467.85,10,4678.5,30,3274.95,East,Credit Card,Returned,308
+7359,14-04-2024,Luke Sharma,19,Air Conditioner,Home Appliances,54.56,1,54.56,14,46.92,East,Debit Card,Returned,309
+4764,13-03-2024,Vincent Shenoy,30,Laptop,Electronics,123.43,8,987.44,33,661.58,North,Cash,Delivered,310
+8944,21-02-2024,Ganga Venkataraman,54,Smartphone,Electronics,366.01,9,3294.09,28,2371.74,West,UPI,Pending,311
+6066,16-09-2024,Veda Rana,56,Perfume,Beauty,382.49,2,764.98,42,443.69,East,Credit Card,Delivered,312
+3197,01-08-2024,Udarsh Puri,29,Washing Machine,Home Appliances,142.31,7,996.17,22,777.01,West,UPI,Pending,313
+8288,12-11-2024,Netra Hans,40,Washing Machine,Home Appliances,94.08,3,282.24,28,203.21,South,Cash,Pending,314
+3907,11-12-2024,Brinda Chadha,54,Washing Machine,Home Appliances,25.5,3,76.5,42,44.37,North,Debit Card,Pending,315
+5171,04-11-2024,Gunbir Anand,44,Microwave,Home Appliances,69.17,10,691.7,17,574.11,North,Debit Card,Delivered,316
+2974,15-03-2024,Gaurav Sehgal,32,Air Conditioner,Home Appliances,84.65,3,253.95,10,228.56,South,Credit Card,Returned,317
+3945,07-07-2024,Oni Muni,28,Laptop,Electronics,387.66,6,2325.96,24,1767.73,East,UPI,Returned,318
+2631,18-03-2024,Vidhi Shankar,29,Smartwatch,Electronics,56.32,4,225.28,49,114.89,East,UPI,Delivered,319
+6100,08-07-2024,Vihaan Singhal,52,Smartwatch,Electronics,29.07,6,174.42,48,90.7,North,Debit Card,Returned,320
+9244,04-03-2024,Lajita Mander,42,Moisturizer,Beauty,493.35,10,4933.5,39,3009.43,North,Credit Card,Pending,321
+8577,29-07-2024,Matthew Balakrishnan,54,Fiction,Books,431.63,2,863.26,19,699.24,East,Credit Card,Pending,322
+2383,12-12-2024,Onveer Handa,26,Headphones,Electronics,224.45,9,2020.05,47,1070.63,South,Debit Card,Pending,323
+6986,15-07-2024,Alexander Borde,42,Lipstick,Beauty,399.12,10,3991.2,49,2035.51,East,Cash,Pending,324
+6250,16-09-2024,Lohit Buch,57,Non-Fiction,Books,79.72,6,478.32,16,401.79,West,Debit Card,Pending,325
+4451,28-09-2024,Yashawini Cheema,57,Microwave,Home Appliances,381.53,7,2670.71,19,2163.28,North,Debit Card,Delivered,326
+5850,23-10-2024,Nandini Srinivasan,60,Microwave,Home Appliances,313.95,5,1569.75,31,1083.13,South,Cash,Returned,327
+1238,23-09-2024,Bhavani Ahluwalia,48,Laptop,Electronics,67.01,1,67.01,10,60.31,South,Cash,Pending,328
+9331,28-09-2024,Azaan Rana,41,Moisturizer,Beauty,183.37,2,366.74,21,289.72,East,UPI,Delivered,329
+5129,20-02-2024,Aarav Keer,55,Fiction,Books,32.42,4,129.68,49,66.14,North,Cash,Pending,330
+8681,06-08-2024,Samar Chhabra,27,Refrigerator,Home Appliances,136.02,4,544.08,49,277.48,West,Credit Card,Pending,331
+3122,14-10-2024,Utkarsh Rao,41,Jacket,Clothing,185.54,1,185.54,41,109.47,South,Cash,Delivered,332
+6551,17-04-2024,Advay Pant,47,Fiction,Books,374.62,7,2622.34,46,1416.06,North,UPI,Delivered,333
+8181,11-04-2024,Kala Mander,32,Refrigerator,Home Appliances,71.51,8,572.08,28,411.9,East,Cash,Delivered,334
+9883,15-07-2024,Indrajit Wadhwa,38,Biography,Books,365.2,1,365.2,43,208.16,South,Cash,Returned,335
+8774,20-02-2024,David Butala,26,Non-Fiction,Books,64.95,10,649.5,27,474.13,North,Credit Card,Delivered,336
+3456,20-11-2024,Anthony Sachdeva,48,Lipstick,Beauty,185.35,1,185.35,46,100.09,West,Debit Card,Delivered,337
+9781,13-10-2024,Isaiah Gole,33,Perfume,Beauty,282.78,6,1696.68,20,1357.34,South,Cash,Pending,338
+9314,08-12-2024,Anthony Vaidya,35,Non-Fiction,Books,191.84,1,191.84,6,180.33,East,Cash,Delivered,339
+2533,05-09-2024,Warjas Toor,51,Headphones,Electronics,293.8,8,2350.4,30,1645.28,South,Credit Card,Pending,340
+9287,07-05-2024,Oscar Sehgal,26,T-Shirt,Clothing,119.01,8,952.08,36,609.33,East,UPI,Pending,341
+6040,17-03-2024,Rohan Zachariah,27,Microwave,Home Appliances,63.19,8,505.52,46,272.98,North,Credit Card,Returned,342
+4588,14-06-2024,Jagdish Misra,56,Microwave,Home Appliances,496.77,9,4470.93,50,2235.47,South,Cash,Delivered,343
+3196,20-07-2024,Lakshmi Bahl,42,Headphones,Electronics,266.54,4,1066.16,10,959.54,West,Cash,Delivered,344
+3652,17-05-2024,Samarth Dhingra,49,Microwave,Home Appliances,497.83,10,4978.3,46,2688.28,East,UPI,Delivered,345
+8006,18-03-2024,Aarav Ahuja,38,Washing Machine,Home Appliances,198.5,9,1786.5,14,1536.39,North,Cash,Pending,346
+1979,07-04-2024,Omya Dayal,20,Smartphone,Electronics,436.32,6,2617.92,11,2329.95,North,Debit Card,Delivered,347
+2268,18-03-2024,Yadavi Hayer,43,T-Shirt,Clothing,387.91,5,1939.55,38,1202.52,West,Credit Card,Returned,348
+9403,24-06-2024,Krisha Krishnamurthy,61,Refrigerator,Home Appliances,446.9,9,4022.1,41,2373.04,West,UPI,Pending,349
+3102,21-12-2024,Harshil Sathe,47,Jeans,Clothing,233.06,1,233.06,43,132.84,West,Cash,Delivered,350
+9544,09-09-2024,Wahab Sekhon,34,Refrigerator,Home Appliances,424.25,1,424.25,41,250.31,East,Cash,Delivered,351
+2205,01-07-2024,Omkaar Misra,49,Jeans,Clothing,229.85,5,1149.25,49,586.12,West,Debit Card,Delivered,352
+1084,13-08-2024,Yagnesh Venkataraman,31,Smartwatch,Electronics,37.79,9,340.11,35,221.07,North,Debit Card,Pending,353
+8838,24-03-2024,Sneha Buch,38,Air Conditioner,Home Appliances,264.12,9,2377.08,26,1759.04,South,Credit Card,Delivered,354
+4193,01-05-2024,Farhan Patla,34,Smartwatch,Electronics,387.73,5,1938.65,42,1124.42,West,Cash,Pending,355
+7633,02-12-2024,Sanya Oak,44,Moisturizer,Beauty,142.93,4,571.72,12,503.11,North,Credit Card,Pending,356
+4152,03-12-2024,Maya Verma,31,Jacket,Clothing,443.03,3,1329.09,20,1063.27,West,Debit Card,Delivered,357
+8987,19-02-2024,Anita Kanda,65,Fiction,Books,333.32,7,2333.24,35,1516.61,East,Credit Card,Returned,358
+5387,02-06-2024,Wyatt Handa,19,Biography,Books,315.27,5,1576.35,17,1308.37,North,UPI,Pending,359
+8168,16-01-2024,Edhitha Issac,29,Refrigerator,Home Appliances,338.68,6,2032.08,46,1097.32,North,UPI,Returned,360
+1697,10-05-2024,Sanaya D’Alia,24,Moisturizer,Beauty,54.44,5,272.2,24,206.87,East,Debit Card,Delivered,361
+9460,10-08-2024,Lipika Boase,35,Jeans,Clothing,467.23,3,1401.69,49,714.86,North,Debit Card,Pending,362
+6478,08-08-2024,Reyansh Natarajan,60,Jacket,Clothing,417.7,10,4177,25,3132.75,East,Debit Card,Pending,363
+8729,27-02-2024,Chandresh Mishra,45,Microwave,Home Appliances,475.91,5,2379.55,17,1975.03,North,UPI,Returned,364
+7647,10-06-2024,Ekansh Reddy,20,Comics,Books,22.31,9,200.79,24,152.6,East,Credit Card,Returned,365
+1328,02-06-2024,Dalbir Shenoy,42,Refrigerator,Home Appliances,281.56,1,281.56,17,233.69,North,Debit Card,Returned,366
+7107,04-01-2024,Kavya Bakshi,40,Lipstick,Beauty,111.06,5,555.3,47,294.31,West,Credit Card,Returned,367
+6702,07-09-2024,Pahal Sharma,49,Foundation,Beauty,118.29,3,354.87,16,298.09,North,Credit Card,Delivered,368
+5119,10-10-2024,Jagat Sem,26,T-Shirt,Clothing,39.22,1,39.22,16,32.94,East,Cash,Delivered,369
+3124,09-07-2024,Michael Suresh,63,Smartphone,Electronics,133.91,2,267.82,34,176.76,North,Credit Card,Pending,370
+5280,06-06-2024,Raagini Sankar,21,Non-Fiction,Books,13.35,6,80.1,45,44.05,South,Debit Card,Returned,371
+8441,13-11-2024,David Taneja,19,Smartphone,Electronics,88,8,704,39,429.44,North,Debit Card,Pending,372
+6759,22-05-2024,Manthan Dube,38,Non-Fiction,Books,423.82,1,423.82,8,389.91,North,Cash,Returned,373
+4596,26-08-2024,Hamsini Sabharwal,28,Washing Machine,Home Appliances,292.23,5,1461.15,24,1110.47,East,Cash,Pending,374
+6129,19-07-2024,Samuel Lad,62,Microwave,Home Appliances,458.53,5,2292.65,19,1857.05,West,UPI,Returned,375
+4522,10-02-2024,Zaitra Nagi,20,Laptop,Electronics,389.16,9,3502.44,49,1786.24,South,Credit Card,Delivered,376
+1469,20-03-2024,Leena Nair,18,Shoes,Clothing,58.5,7,409.5,7,380.83,East,Credit Card,Returned,377
+3045,20-01-2024,Hemang Pal,37,Lipstick,Beauty,258.95,9,2330.55,28,1678,East,Debit Card,Pending,378
+5573,02-04-2024,Hemangini Bir,26,Refrigerator,Home Appliances,446.31,10,4463.1,49,2276.18,South,Credit Card,Pending,379
+9523,13-09-2024,Vanya Apte,45,Jeans,Clothing,156.03,3,468.09,42,271.49,North,Cash,Returned,380
+2681,03-01-2024,Samaksh Majumdar,59,Air Conditioner,Home Appliances,223.1,4,892.4,25,669.3,West,UPI,Delivered,381
+8700,11-04-2024,Ansh Bahl,27,Jacket,Clothing,268.88,5,1344.4,33,900.75,South,UPI,Pending,382
+6811,18-02-2024,Jonathan Kaur,64,Jacket,Clothing,49.44,5,247.2,31,170.57,West,Credit Card,Returned,383
+7771,22-03-2024,Ishwar Kala,53,T-Shirt,Clothing,462.89,8,3703.12,48,1925.62,West,UPI,Pending,384
+3730,06-12-2024,Madhavi Mutti,23,Air Conditioner,Home Appliances,331.53,1,331.53,35,215.49,East,Credit Card,Pending,385
+7716,07-03-2024,Lucky Shere,44,Foundation,Beauty,339.95,8,2719.6,25,2039.7,South,Debit Card,Delivered,386
+2730,01-11-2024,Pranit Pandya,60,Perfume,Beauty,495.18,2,990.36,23,762.58,East,UPI,Pending,387
+8743,05-05-2024,Ekbal Doshi,26,Lipstick,Beauty,406.08,10,4060.8,41,2395.87,South,Credit Card,Returned,388
+5260,25-04-2024,Tristan Saxena,35,Moisturizer,Beauty,374.99,1,374.99,40,224.99,South,Cash,Delivered,389
+9208,07-07-2024,Chanchal Hora,28,Washing Machine,Home Appliances,266.73,3,800.19,29,568.13,North,Credit Card,Delivered,390
+1115,14-07-2024,Yashvi Bose,45,Non-Fiction,Books,88.8,8,710.4,42,412.03,West,Credit Card,Pending,391
+7567,03-08-2024,Timothy Sood,58,Washing Machine,Home Appliances,454.2,10,4542,24,3451.92,North,Cash,Delivered,392
+5233,18-04-2024,Lipika Raja,30,Air Conditioner,Home Appliances,370.94,6,2225.64,27,1624.72,East,Credit Card,Returned,393
+4253,29-10-2024,Vedant Mutti,26,Smartwatch,Electronics,110.66,4,442.64,37,278.86,West,UPI,Returned,394
+5201,11-10-2024,Girindra Prakash,55,Refrigerator,Home Appliances,336.75,3,1010.25,5,959.74,West,Cash,Delivered,395
+7102,29-06-2024,Umang Pathak,18,Fiction,Books,477.42,3,1432.26,45,787.74,West,Debit Card,Returned,396
+5126,23-10-2024,Pushti Kanda,52,Washing Machine,Home Appliances,353.83,8,2830.64,26,2094.67,South,UPI,Delivered,397
+4143,22-08-2024,Ati Iyengar,20,Washing Machine,Home Appliances,425,6,2550,40,1530,East,Credit Card,Delivered,398
+1363,12-09-2024,Ucchal Bhalla,34,Jeans,Clothing,250.84,4,1003.36,13,872.92,South,Debit Card,Returned,399
+4575,15-07-2024,Ayush Bera,19,Comics,Books,328.28,5,1641.4,13,1428.02,East,UPI,Pending,400
+4848,26-03-2024,Zashil Deshpande,45,Perfume,Beauty,21.76,1,21.76,5,20.67,North,UPI,Returned,401
+3164,07-04-2024,Onveer Barad,38,Lipstick,Beauty,93.97,10,939.7,25,704.78,North,Cash,Delivered,402
+9741,19-09-2024,Aahana Roy,52,Headphones,Electronics,317.27,6,1903.62,9,1732.29,North,Cash,Pending,403
+5135,20-08-2024,Nirja Das,33,Non-Fiction,Books,65.15,5,325.75,23,250.83,South,Credit Card,Delivered,404
+4475,27-02-2024,Wriddhish Batra,24,Comics,Books,251,3,753,20,602.4,North,Cash,Delivered,405
+9178,12-08-2024,Meghana Desai,63,Fiction,Books,239.06,4,956.24,11,851.05,East,Cash,Pending,406
+6680,19-02-2024,Chasmum Walla,35,Washing Machine,Home Appliances,281.24,5,1406.2,26,1040.59,East,UPI,Returned,407
+1822,14-12-2024,Lucky Zachariah,31,Moisturizer,Beauty,289.76,4,1159.04,26,857.69,West,UPI,Pending,408
+5776,21-10-2024,Baljiwan Sangha,25,Microwave,Home Appliances,119.75,2,239.5,10,215.55,North,UPI,Pending,409
+7183,20-08-2024,Jhalak Kapur,50,Microwave,Home Appliances,122.29,4,489.16,11,435.35,North,UPI,Returned,410
+8197,10-01-2024,Amrita Sane,59,Jeans,Clothing,239.32,6,1435.92,24,1091.3,East,Debit Card,Returned,411
+4355,06-07-2024,Yasti Raghavan,46,Comics,Books,389.11,3,1167.33,50,583.66,North,Debit Card,Returned,412
+8365,06-09-2024,Pranit Kuruvilla,22,Smartphone,Electronics,370.78,3,1112.34,49,567.29,North,Debit Card,Delivered,413
+2840,31-08-2024,Eta Raman,44,Headphones,Electronics,170.38,9,1533.42,21,1211.4,South,Cash,Pending,414
+9767,14-08-2024,Elijah Prabhakar,19,Smartwatch,Electronics,181.21,4,724.84,21,572.62,West,Credit Card,Pending,415
+9635,01-03-2024,Onkar Yadav,63,Jacket,Clothing,191.26,8,1530.08,44,856.84,East,Cash,Pending,416
+4312,19-03-2024,Upadhriti Krishnan,38,Smartphone,Electronics,448.62,8,3588.96,14,3086.51,East,Credit Card,Returned,417
+6253,22-06-2024,Ranbir Venkataraman,27,Non-Fiction,Books,227.22,2,454.44,38,281.75,East,Credit Card,Returned,418
+8433,15-07-2024,Aarna Manda,18,Headphones,Electronics,183.43,7,1284.01,18,1052.89,North,Cash,Pending,419
+4668,06-10-2024,Kamya Gupta,38,Refrigerator,Home Appliances,411.55,3,1234.65,33,827.22,East,Debit Card,Delivered,420
+4532,17-03-2024,Gaurang Kara,38,Washing Machine,Home Appliances,478.81,4,1915.24,20,1532.19,North,Cash,Pending,421
+4359,16-04-2024,Kamala Ravel,63,Moisturizer,Beauty,196.73,5,983.65,26,727.9,East,UPI,Delivered,422
+9981,25-08-2024,Neelima Sibal,24,Laptop,Electronics,375.51,7,2628.57,24,1997.71,South,Cash,Pending,423
+4958,15-10-2024,Balveer Mann,52,Fiction,Books,112.85,8,902.8,5,857.66,East,Cash,Pending,424
+5658,31-01-2024,Chavvi Bahl,41,Headphones,Electronics,151.3,5,756.5,15,643.02,East,Debit Card,Pending,425
+4623,01-06-2024,Orinder Bora,30,Jeans,Clothing,10.05,10,100.5,32,68.34,North,Cash,Pending,426
+6312,26-07-2024,Riya Jain,36,Smartphone,Electronics,134.32,1,134.32,47,71.19,North,UPI,Returned,427
+6721,10-02-2024,Samarth Vora,54,Air Conditioner,Home Appliances,428.04,8,3424.32,31,2362.78,West,Cash,Pending,428
+7357,30-10-2024,Amruta Nayar,44,Air Conditioner,Home Appliances,233.5,10,2335,5,2218.25,South,UPI,Returned,429
+4092,20-12-2024,Chameli Yadav,46,Air Conditioner,Home Appliances,453.65,5,2268.25,15,1928.01,West,Credit Card,Delivered,430
+9813,06-10-2024,Rudra Mahal,39,Biography,Books,397.15,9,3574.35,23,2752.25,East,Credit Card,Pending,431
+6156,21-07-2024,Tristan Chaudhry,38,Jeans,Clothing,158.14,10,1581.4,39,964.65,South,Cash,Pending,432
+3592,25-12-2024,Maya Das,28,Smartphone,Electronics,112.51,10,1125.1,16,945.08,North,Debit Card,Returned,433
+4493,20-04-2024,Wakeeta Nagarajan,54,Non-Fiction,Books,345.87,5,1729.35,25,1297.01,South,UPI,Delivered,434
+9664,03-05-2024,Watika Krishnamurthy,49,Biography,Books,243.28,1,243.28,34,160.56,North,Credit Card,Delivered,435
+9114,04-04-2024,Kavya Kamdar,50,Refrigerator,Home Appliances,470.65,3,1411.95,20,1129.56,South,Debit Card,Delivered,436
+6793,19-01-2024,Theodore Kulkarni,63,Moisturizer,Beauty,433.32,3,1299.96,8,1195.96,South,Cash,Delivered,437
+2154,14-02-2024,Tamanna Raman,49,Microwave,Home Appliances,201.39,3,604.17,15,513.54,East,Credit Card,Delivered,438
+2499,12-11-2024,Anmol Nath,26,Microwave,Home Appliances,39.57,2,79.14,27,57.77,South,Cash,Pending,439
+4500,05-07-2024,Unni Date,49,Jeans,Clothing,468.97,1,468.97,16,393.93,North,Debit Card,Pending,440
+1726,25-01-2024,Niharika Arora,27,Shoes,Clothing,142.99,3,428.97,43,244.51,South,UPI,Delivered,441
+1574,04-06-2024,Maanav Sunder,39,Shoes,Clothing,286.88,3,860.64,9,783.18,South,Cash,Pending,442
+4856,17-11-2024,Jason Bajwa,27,Lipstick,Beauty,285.55,3,856.65,6,805.25,South,Cash,Delivered,443
+3668,21-04-2024,Daksh Sant,61,Shoes,Clothing,486.16,4,1944.64,42,1127.89,East,Cash,Delivered,444
+5770,14-06-2024,Brijesh Palan,20,Biography,Books,420.29,3,1260.87,29,895.22,East,Cash,Returned,445
+5986,01-05-2024,Alexander Mittal,57,Foundation,Beauty,338.84,7,2371.88,15,2016.1,North,UPI,Pending,446
+3337,20-11-2024,Amaira Barad,36,Air Conditioner,Home Appliances,460.27,4,1841.08,49,938.95,West,Credit Card,Pending,447
+8017,18-10-2024,Nakul Chauhan,48,Washing Machine,Home Appliances,209.65,4,838.6,9,763.13,North,Credit Card,Pending,448
+9982,07-03-2024,Ubika More,50,T-Shirt,Clothing,223.13,4,892.52,40,535.51,West,Cash,Delivered,449
+7206,04-06-2024,Rajeshri Sandal,51,Fiction,Books,62.05,1,62.05,41,36.61,East,Cash,Delivered,450
+8779,14-03-2024,Ishani Dixit,48,Moisturizer,Beauty,438.93,7,3072.51,21,2427.28,South,Debit Card,Pending,451
+9298,08-11-2024,Leela Ganguly,39,Fiction,Books,499.18,3,1497.54,36,958.43,East,UPI,Delivered,452
+8833,28-03-2024,Jonathan Ravi,43,Fiction,Books,78.47,3,235.41,49,120.06,West,Credit Card,Delivered,453
+9236,08-08-2024,Yash Sood,52,T-Shirt,Clothing,199.99,8,1599.92,28,1151.94,East,UPI,Delivered,454
+1801,09-12-2024,Lucky Mohanty,29,Foundation,Beauty,248.94,10,2489.4,49,1269.59,North,Credit Card,Pending,455
+1116,05-04-2024,Arya Dhillon,25,Jeans,Clothing,67.24,3,201.72,10,181.55,South,Credit Card,Pending,456
+5408,31-05-2024,Gaurika Prashad,56,Smartwatch,Electronics,13,8,104,36,66.56,North,Credit Card,Returned,457
+5459,13-01-2024,Dalaja Dar,65,Smartphone,Electronics,290.29,4,1161.16,7,1079.88,West,Credit Card,Returned,458
+1709,22-07-2024,Andrew Jayaraman,43,Lipstick,Beauty,296.71,8,2373.68,33,1590.37,North,Cash,Pending,459
+2153,22-10-2024,Bakhshi Bhavsar,37,Laptop,Electronics,309.19,3,927.57,18,760.61,North,Cash,Pending,460
+4549,14-08-2024,Zayan Rai,65,Refrigerator,Home Appliances,284.47,3,853.41,31,588.85,South,Credit Card,Delivered,461
+5492,31-10-2024,Hemangini Prabhu,49,Headphones,Electronics,452.63,9,4073.67,23,3136.73,West,Debit Card,Delivered,462
+3999,25-07-2024,Sara Chand,23,Perfume,Beauty,190.25,6,1141.5,28,821.88,West,Cash,Pending,463
+6668,20-06-2024,Rachana Gandhi,39,Comics,Books,249.95,8,1999.6,32,1359.73,East,Credit Card,Returned,464
+2528,06-03-2024,Rohan Ghose,62,Perfume,Beauty,362.71,10,3627.1,44,2031.18,South,Cash,Pending,465
+4417,19-11-2024,Xavier Bala,59,Air Conditioner,Home Appliances,252.51,9,2272.59,35,1477.18,South,UPI,Delivered,466
+1054,22-03-2024,Aayush Divan,23,Jacket,Clothing,91.1,2,182.2,45,100.21,North,Debit Card,Delivered,467
+8018,09-06-2024,Atharv Mangat,63,T-Shirt,Clothing,433.96,1,433.96,8,399.24,South,Cash,Returned,468
+4435,07-12-2024,Nathaniel Mani,47,Lipstick,Beauty,148.03,3,444.09,35,288.66,West,Debit Card,Returned,469
+5819,08-09-2024,Hemang Chandra,41,T-Shirt,Clothing,218.46,3,655.38,21,517.75,South,Debit Card,Delivered,470
+6865,10-01-2024,Pallavi Yogi,51,Fiction,Books,138.79,9,1249.11,24,949.32,North,Credit Card,Delivered,471
+8984,01-12-2024,Ikbal Saran,52,Jacket,Clothing,308.12,7,2156.84,35,1401.95,West,UPI,Delivered,472
+5001,14-05-2024,Laban Das,59,Refrigerator,Home Appliances,290.94,2,581.88,35,378.22,West,Cash,Returned,473
+8562,02-10-2024,Abhimanyu Palla,46,Biography,Books,290.6,2,581.2,41,342.91,East,UPI,Pending,474
+6323,14-07-2024,Ridhi Pal,25,Biography,Books,385.83,7,2700.81,23,2079.62,East,Debit Card,Pending,475
+8685,30-01-2024,Dhruv Atwal,45,Air Conditioner,Home Appliances,193,1,193,21,152.47,East,Credit Card,Pending,476
+7903,29-04-2024,Zehaan Yadav,62,Comics,Books,449.9,5,2249.5,40,1349.7,West,Cash,Returned,477
+4459,03-06-2024,Kavya Pillai,31,Lipstick,Beauty,231.33,9,2081.97,23,1603.12,North,Credit Card,Delivered,478
+6261,28-02-2024,Jyoti Pradhan,35,Moisturizer,Beauty,400.28,10,4002.8,49,2041.43,East,Cash,Delivered,479
+5494,11-10-2024,Veda Chaudhry,43,Microwave,Home Appliances,374.79,9,3373.11,9,3069.53,West,UPI,Pending,480
+1485,11-07-2024,Jagrati Bains,32,Microwave,Home Appliances,421.27,3,1263.81,29,897.31,West,Cash,Pending,481
+4075,23-07-2024,Tejas Ranganathan,19,Laptop,Electronics,182.86,4,731.44,23,563.21,West,Credit Card,Delivered,482
+5916,13-11-2024,Baljiwan Sankaran,41,Foundation,Beauty,427.61,1,427.61,29,303.6,West,Debit Card,Pending,483
+7733,27-06-2024,Patrick Mallick,35,Comics,Books,466.84,9,4201.56,23,3235.2,West,Cash,Returned,484
+2896,10-08-2024,William Nagy,35,Laptop,Electronics,487.05,7,3409.35,36,2181.98,North,Credit Card,Returned,485
+7239,05-11-2024,Lopa Kakar,44,Non-Fiction,Books,336.99,1,336.99,26,249.37,North,Credit Card,Pending,486
+2215,15-04-2024,Darika Dhillon,51,Refrigerator,Home Appliances,48.49,4,193.96,20,155.17,South,UPI,Pending,487
+1874,20-04-2024,Varenya Kapoor,49,Comics,Books,444.63,2,889.26,6,835.9,North,UPI,Returned,488
+5096,29-02-2024,Gaurika Sachdev,31,Laptop,Electronics,262.68,2,525.36,32,357.24,East,Debit Card,Pending,489
+8569,03-06-2024,Naksh Kapoor,21,Comics,Books,249.05,9,2241.45,45,1232.8,South,Debit Card,Delivered,490
+8280,07-05-2024,Hemangini Dua,55,Air Conditioner,Home Appliances,34.82,5,174.1,15,147.98,East,Cash,Returned,491
+6361,13-11-2024,David Chahal,35,Moisturizer,Beauty,106.96,7,748.72,11,666.36,East,UPI,Delivered,492
+7300,26-04-2024,Hemal Bora,29,Perfume,Beauty,249.82,10,2498.2,49,1274.08,East,UPI,Delivered,493
+1542,28-05-2024,George Rege,43,Smartphone,Electronics,416.28,4,1665.12,45,915.82,East,Credit Card,Delivered,494
+6876,23-04-2024,Leela Sem,38,Foundation,Beauty,414.32,2,828.64,19,671.2,West,Debit Card,Delivered,495
+4628,25-06-2024,Leela Narasimhan,60,Shoes,Clothing,205.42,5,1027.1,28,739.51,South,Credit Card,Pending,496
+2866,12-05-2024,Vedika Mander,22,Moisturizer,Beauty,496.53,8,3972.24,28,2860.01,East,Debit Card,Delivered,497
+,10-08-2024,Aadi Bhargava,50,Refrigerator,Home Appliances,389.74,5,1948.7,12,1714.86,West,Debit Card,Returned,498
+,28-03-2024,Chakradev Thaker,54,Shoes,Clothing,335.87,1,335.87,21,265.34,North,UPI,Delivered,499
+3861,12-12-2024,Anmol Deo,55,Air Conditioner,Home Appliances,221.01,9,1989.09,10,1790.18,South,Credit Card,Pending,500
