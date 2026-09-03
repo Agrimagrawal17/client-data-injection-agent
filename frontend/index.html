@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Data Injection Agent - Executive Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="logo">
+            <i class="fa-solid fa-layer-group"></i> DataAgent Pro
+        </div>
+        <ul class="nav-links">
+            <li class="active"><a href="#"><i class="fa-solid fa-chart-pie"></i> Executive Overview</a></li>
+            <li><a href="#upload-section"><i class="fa-solid fa-file-excel"></i> Excel Upload</a></li>
+            <li><a href="#filter-section"><i class="fa-solid fa-sliders"></i> Smart Query Engine</a></li>
+            <li><a href="#orders-section"><i class="fa-solid fa-table-list"></i> Filtered Results</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        
+        <header class="top-header">
+            <div>
+                <h1>Client Data Injection Agent</h1>
+                <p>Enterprise Order Analytics & Database Management System</p>
+            </div>
+            <div class="header-badge">
+                <span class="dot"></span> Database Online
+            </div>
+        </header>
+
+        <!-- Dynamic KPI Stats Cards -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="icon-box blue"><i class="fa-solid fa-database"></i></div>
+                <div>
+                    <h3 id="totalDbCount">0</h3>
+                    <p>Total Injected Records</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="icon-box orange"><i class="fa-solid fa-filter"></i></div>
+                <div>
+                    <h3 id="totalOrdersCount">0</h3>
+                    <p>Filtered Match Count</p>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="icon-box green"><i class="fa-solid fa-circle-check"></i></div>
+                <div>
+                    <h3>Active</h3>
+                    <p>MySQL Sync Status</p>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="icon-box purple"><i class="fa-solid fa-shield-halved"></i></div>
+                <div>
+                    <h3>100% Cleaned</h3>
+                    <p>Validation Status</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Excel Upload Section -->
+        <section id="upload-section" class="card">
+            <h2><i class="fa-solid fa-cloud-arrow-up"></i> Data Injection Pipeline</h2>
+            <p class="subtitle">Upload Excel (.xlsx, .xls) or CSV files to automatically clean, parse, and store order records.</p>
+            
+            <form id="uploadForm">
+                <div class="drop-zone" id="dropZone">
+                    <i class="fa-solid fa-file-excel drop-icon"></i>
+                    <p class="drop-text">Drag & drop dataset file here or <span>Browse Local Files</span></p>
+                    <input type="file" id="fileInput" accept=".xlsx, .xls, .csv" hidden>
+                    <div id="fileNameDisplay" class="file-name-display"></div>
+                </div>
+
+                <button type="submit" id="uploadBtn" class="btn btn-primary" disabled>
+                    <i class="fa-solid fa-bolt"></i> Upload & Process Sheet
+                </button>
+            </form>
+
+            <div id="uploadStatus" class="status-message"></div>
+        </section>
+
+        <!-- Swagger-Style Smart Query Engine -->
+        <section id="filter-section" class="card filter-panel">
+            <div class="filter-header">
+                <div>
+                    <span class="api-tag get">GET</span>
+                    <span class="api-endpoint">/orders/filter</span>
+                </div>
+                <p class="subtitle" style="margin: 5px 0 0 0;">Query parameters to filter specific client order segments.</p>
+            </div>
+
+            <form id="filterForm">
+                <div class="query-grid">
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">region</span><span class="param-type">string</span></div>
+                        <input type="text" id="region" placeholder="e.g. East, West">
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">category</span><span class="param-type">string</span></div>
+                        <input type="text" id="category" placeholder="e.g. Electronics, Books">
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">payment_method</span><span class="param-type">string</span></div>
+                        <input type="text" id="payment_method" placeholder="e.g. UPI, Credit Card">
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">delivery_status</span><span class="param-type">string</span></div>
+                        <input type="text" id="delivery_status" placeholder="e.g. Delivered, Returned">
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">min_age</span><span class="param-type">integer</span></div>
+                        <input type="number" id="min_age" placeholder="Min customer age">
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">max_age</span><span class="param-type">integer</span></div>
+                        <input type="number" id="max_age" placeholder="Max customer age">
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">min_price</span><span class="param-type">number</span></div>
+                        <input type="number" step="0.01" id="min_price" placeholder="Min price (₹)">
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">max_price</span><span class="param-type">number</span></div>
+                        <input type="number" step="0.01" id="max_price" placeholder="Max price (₹)">
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">start_date</span><span class="param-type">date</span></div>
+                        <input type="date" id="start_date">
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">end_date</span><span class="param-type">date</span></div>
+                        <input type="date" id="end_date">
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">sort_by</span><span class="param-type">string</span></div>
+                        <select id="sort_by">
+                            <option value="">Sort Field (Default)</option>
+                            <option value="date">Order Date</option>
+                            <option value="price">Product Price</option>
+                            <option value="customer_age">Customer Age</option>
+                        </select>
+                    </div>
+                    <div class="query-box">
+                        <div class="param-info"><span class="param-name">sort_order</span><span class="param-type">string</span></div>
+                        <select id="sort_order">
+                            <option value="asc">Ascending (A-Z, Low-High)</option>
+                            <option value="desc">Descending (Z-A, High-Low)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="filter-actions">
+                    <button type="submit" class="btn btn-execute"><i class="fa-solid fa-magnifying-glass"></i> Apply Filters</button>
+                    <button type="button" id="resetBtn" class="btn btn-light"><i class="fa-solid fa-rotate-left"></i> Clear All</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Processed Query Data Section -->
+        <section id="orders-section" class="card">
+            
+            <!-- Contextual Banner: Filter Result Summary -->
+            <div id="filterSummaryBanner" class="filter-summary-banner hidden">
+                <div>
+                    <i class="fa-solid fa-sliders"></i> 
+                    <span id="filterSummaryText">Showing results matching active criteria</span>
+                </div>
+                <div id="activeTagsContainer" class="active-tags-container"></div>
+            </div>
+
+            <div class="table-header">
+                <div>
+                    <h2><i class="fa-solid fa-table"></i> Processed Order Records</h2>
+                    <p class="subtitle" style="margin: 0; font-size: 12px;">Live verified data from MySQL database</p>
+                </div>
+                <div class="table-actions">
+                    <label style="font-size: 12px; color: #64748b; font-weight: 600;">Rows: 
+                        <select id="rowsPerPageSelect" class="rows-select">
+                            <option value="10" selected>10</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                    </label>
+                    <button id="refreshDataBtn" class="btn btn-light"><i class="fa-solid fa-arrows-rotate"></i> Refresh</button>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Date</th>
+                            <th>Customer Name</th>
+                            <th>Age</th>
+                            <th>Region</th>
+                            <th>Product</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                            <th>Payment Method</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ordersTableBody">
+                        <tr>
+                            <td colspan="10" class="text-center">Loading Records...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Pagination Controls -->
+            <div class="pagination-wrapper">
+                <span id="pageInfo" class="page-info">Showing 0-0 of 0 entries</span>
+                <div class="pagination-buttons">
+                    <button id="prevPageBtn" class="btn-page" disabled><i class="fa-solid fa-chevron-left"></i> Prev</button>
+                    <div id="pageNumbers" class="page-numbers"></div>
+                    <button id="nextPageBtn" class="btn-page" disabled>Next <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
