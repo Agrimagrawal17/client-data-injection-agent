@@ -1,0 +1,31 @@
+services:
+
+  mysql:
+    image: mysql:8.0
+    container_name: client-data-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: client_data_db
+    volumes:
+      - client_data_mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: .
+    container_name: client-data-backend
+    restart: always
+    ports:
+      - "8000:8000"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: mysql+pymysql://root:root@mysql:3306/client_data_db
+
+volumes:
+  client_data_mysql_data:
