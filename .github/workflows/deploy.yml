@@ -1,4 +1,4 @@
-name: Deploy Client Data Injection Agent
+name: Client Data Injection Agent - CI/CD
 
 on:
   push:
@@ -6,13 +6,34 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+
+  # ==============================
+  # CI - Build & Push Docker Image
+  # ==============================
+  build:
+    name: Build & Push Docker Image
     runs-on: ubuntu-latest
 
     steps:
 
-      - name: Checkout code
+      - name: Checkout Source Code
         uses: actions/checkout@v4
+
+      - name: Validate Project Structure
+        run: |
+          echo "Checking project structure..."
+          test -f Dockerfile
+          test -f requirements.txt
+          test -d app
+          test -d frontend
+          echo "Project structure validation passed."
+
+      - name: Build Docker Image
+        run: |
+          echo "Building Docker image..."
+          docker build \
+            -t agrim017/client-data-injection-agent:latest .
+          echo "Docker image built successfully."
 
       - name: Login to Docker Hub
         uses: docker/login-action@v3
@@ -20,21 +41,78 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and Push Docker Image
-        uses: docker/build-push-action@v6
-        with:
-          context: .
-          push: true
-          tags: agrim017/client-data-injection-agent:latest
+      - name: Push Docker Image
+        run: |
+          echo "Pushing image to Docker Hub..."
+          docker push agrim017/client-data-injection-agent:latest
+          echo "Docker image pushed successfully."
 
-      - name: Deploy to EC2
+
+  # ==============================
+  # CD - Deploy to AWS EC2
+  # ==============================
+  deploy:
+    name: Deploy to AWS EC2
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+
+      - name: Connect to EC2
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
+            echo "Connected to EC2 successfully."
+
+      - name: Deploy Latest Docker Image
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            echo "Pulling latest Docker image..."
             cd ~
             docker compose pull
+
+            echo "Restarting application..."
             docker compose up -d
+
+            echo "Removing unused Docker images..."
             docker image prune -f
+
+            echo "Deployment completed successfully."
+
+
+  # ==============================
+  # Deployment Verification
+  # ==============================
+  verify:
+    name: Verify Deployment
+    runs-on: ubuntu-latest
+    needs: deploy
+
+    steps:
+
+      - name: Verify EC2 Application
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            echo "Checking running containers..."
+            docker compose ps
+
+            echo "Checking backend container..."
+            docker inspect client-data-backend \
+              --format='Backend status: {{.State.Status}}'
+
+            echo "Checking MySQL container..."
+            docker inspect client-data-mysql \
+              --format='MySQL status: {{.State.Status}}'
+
+            echo "Deployment verification completed."
